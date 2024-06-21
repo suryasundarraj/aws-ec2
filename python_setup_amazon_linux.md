@@ -188,3 +188,15 @@ pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
 ```
 
 That’s it!
+
+
+
+# BONUS
+
+```
+[ec2-user@ip-172-31-38-57 ~]$ sudo update-alternatives --install /usr/bin/pip pip /usr/bin/pip3.11
+```
+
+```
+[ec2-user@ip-172-31-38-57 ~]$ sudo update-alternatives --install /usr/bin/pip pip /usr/bin/pip3.11 1
+```
