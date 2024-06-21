@@ -4,14 +4,17 @@
 
 Running the command below will let you know if Python 3.11 is already executable or not on your instance:
 
+```
 [ec2-user@ip-172-31-47-32 ~]$ python 3.11 --version
 -bash: python: command not found
+```
 
 ## Search for existing Python 3.11 package
 
 Run the command below:
-
+```
 sudo dnf search python3.11
+```
 
 The results are as follows, indicating existing Python 3.11 package, ready to be installed:
 
